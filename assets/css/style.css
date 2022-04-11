@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Source+Code+Pro:wght@300;400;500&display=swap');
+
+/* font-family: 'Fira Code', monospace;
+font-family: 'Source Code Pro', monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    background: #020408;
+    color: aliceblue;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+}
+
+span {
+    color: #56A5EC;
+}
+
+em {
+    color: #FFE87C;
+    font-style: normal;
+}
+
+/* =====================
+        Main Section 01
+======================== */
+
+header h1 {
+    text-align: center;
+    margin-top: 0.75vh;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5vh;
+}
+
+i {
+    font-size: 450px;
+    margin-left: 30.5%;
+}
+
+.at-timeline {
+    position: relative;
+    width: 55%;
+    margin-left: 20%;
+    font-size: 1.5rem;
+    margin-top: -5rem;
+}
+
+.at-timeline:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2168px;
+    top: 0;
+    left: 50%;
+    background: #2783e8;
+}
+
+.timeline--single {
+    position: relative;
+    margin: 50px 0;
+}
+
+.timeline--single:nth-child(odd) .timeline--details {
+    margin-right: 50%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.timeline--single:nth-child(odd) .time--date {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: 20px;
+}
+
+.timeline--single:nth-child(even) .time--date {
+    position: absolute;
+    right: 50%;
+    top: 0px;
+    margin-right: 20px;
+}
+
+.timeline--single:nth-child(even) .timeline--details {
+    margin-left: 50%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.at-timeline .timeline--details:before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 10px;
+    background: #2783e8;
+}
+
+.timeline--single:nth-child(odd) .timeline--details:before {
+    right: 50%;
+}
+
+.timeline--single:nth-child(even) .timeline--details:before {
+    left: 50%;
+}
+
+.timeline--title {
+    margin-top: 5px;
+}
+
+/* Dritter Main Section Teil */
+
+main section:nth-of-type(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    background
+}
+
+/* Table */
+table,
+td {
+    padding: 3vh;
+    margin: 0 0 0 15%;
+    font-size: 1.5rem;
+}
+
+table td {
+    border: 1px solid;
+}
+
+main section h1 {
+    text-align: center;
+    padding: 2vh;
+}
